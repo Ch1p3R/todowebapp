@@ -1,0 +1,25 @@
+<div class="row no-gutters">
+    <h1>Todo Management For {{name}}</h1>
+</div>
+<div class="row no-gutters">
+    <div class="input-group component-group">
+        <input type="text" class="form-control" ng-model="blogName"/>
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button" ng-click="createBlog(blogName)" >Create new Blog!</button>
+        </span>
+    </div>
+</div>
+<div class="row no-gutters">
+    <table class="table table-striped">
+        <thead>Blog Name</thead>
+        <thead>Action</thead>
+        <tr ng-repeat="blog in blogs">
+            <td>{{blog.title}}</td>
+            <td>
+                <a ui-sref="manageBlogs({accountId:account.rid})" class="btn btn-large btn-default">
+                    Delete
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todoApp" ng-controller="AppCtrl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom-cover.css" rel="stylesheet">
+
+  <title ng-bind="pageTitle"></title>
+    <!--<link href="css/main.min.css" rel="stylesheet">-->
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h1 class="graffiti masthead-brand ">TO DO Application</h1>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Todos</a></li>
+                  <li><a href="#">Accounts</a></li>
+                  <li><a class="login" href="#">Sign In</a></li>
+                  <li><a class="register" href="#">Sign Up</a></li>
+<!--                  <li><a class="logout" href="#">Logout</a></li>-->
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+
+
+          <div ui-view="main" >
+
+          </div>
+
+
+          <div class="mastfoot">
+            <div class="inner col-xs-12">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<!--         <script src="js/jquery.min.js"></script> -->
+    <script src="js/jqueryBootstrap.min.js"></script>
+    <script src="app/bundledByWatchify.js"></script>
+<script>window.jQuery || document.write('<script src="js/jqueryBootstrap.min.js"><\/script>')</script>
+
+  </body>
+</html>
