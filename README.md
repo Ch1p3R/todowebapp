@@ -1,5 +1,5 @@
 
-# Spring MVC | AngularJs App #
+# Spring MVC | AngularJS Application #
 
 Application that provides RESTful api with using AngularJs for creating own To-Do list.
 ### Frontend Overview #
