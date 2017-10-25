@@ -1,7 +1,8 @@
 
 # Spring MVC | AngularJs App #
+
 Application that provides RESTful api with using AngularJs for creating own To-Do list.
-###Frontend Overview###
+### Frontend Overview #
 It's a web application with an AngularJs-based frontend and a Spring/Hibernate based backend. The application is responsive, as it adapts to different screen sizes that provided by using bootstrap.
 
 Also in that application I've used gulp build system. That provides browsersync, watchify and many other helpful dependencies for fast working with project.
