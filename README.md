@@ -6,7 +6,7 @@ It's a web application with an AngularJs-based frontend and a Spring/Hibernate b
 
 Also in that application I've used gulp build system. That provides browsersync, watchify and many other helpful dependencies for fast working with project.
 
-### Backend Overview###
+### Backend Overview #
 
 The backend is based on Java 8, Spring 4, JPA 2/ Hibernate 5. 
 The Spring configuration is based on Java. The main Spring modules used where Spring MVC and Spring Security. 
